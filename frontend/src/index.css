@@ -6,9 +6,6 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:14
 .shell{display:flex;height:100vh;overflow:hidden}
 .sidebar{width:220px;flex-shrink:0;background:var(--bg2);border-right:0.5px solid var(--border);display:flex;flex-direction:column;padding:1rem 0}
 .sidebar-logo{display:flex;align-items:center;gap:8px;padding:0 1rem 1rem;font-weight:500;font-size:15px;border-bottom:0.5px solid var(--border);margin-bottom:0.75rem}
-.sidebar-dataset{margin:0 0.75rem 0.75rem;padding:8px 10px;background:var(--bg3);border-radius:var(--radius);border:0.5px solid var(--border)}
-.sidebar-dataset-label{display:block;font-size:10px;color:var(--text3);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:2px}
-.sidebar-dataset-name{display:block;font-size:12px;color:var(--text);font-family:var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sidebar-nav{flex:1;padding:0 0.75rem;display:flex;flex-direction:column;gap:2px}
 .nav-item{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:var(--radius);color:var(--text2);text-decoration:none;font-size:13px;transition:background 0.15s,color 0.15s}
 .nav-item:hover{background:var(--bg3);color:var(--text)}
@@ -16,11 +13,9 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:14
 .sidebar-footer{padding:0.75rem 1rem;border-top:0.5px solid var(--border)}
 .sidebar-gh-link{font-size:12px;color:var(--text2);text-decoration:none}
 .main-content{flex:1;overflow-y:auto}
-.card{background:var(--bg2);border:0.5px solid var(--border);border-radius:var(--radius-lg);padding:1.25rem}
 button,.btn{font-family:var(--font);font-size:13px;border-radius:var(--radius);border:0.5px solid var(--border2);background:transparent;color:var(--text);cursor:pointer;padding:7px 14px;transition:background 0.15s}
 button:hover,.btn:hover{background:var(--bg3)}
 .btn-primary{background:var(--accent);border-color:var(--accent);color:#fff}
-.btn-primary:hover{background:var(--accent2);border-color:var(--accent2)}
 input,select,textarea{font-family:var(--font);font-size:13px;background:var(--bg3);border:0.5px solid var(--border2);color:var(--text);border-radius:var(--radius);padding:8px 10px;outline:none;width:100%}
 input:focus,select:focus{border-color:var(--accent2)}
-.mono{font-family:var(--mono)}.muted{color:var(--text2)}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mono{font-family:var(--mono)}.muted{color:var(--text2)}
